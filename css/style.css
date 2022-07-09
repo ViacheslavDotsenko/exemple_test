@@ -387,6 +387,10 @@ margin-right: 10px;
     margin-left: 50%;
     transform: translate(-50%);
 }
+.recent_posts_button:hover {
+    background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+    color: #FFFFFF;  
+}
 .input_search {
     width: 100%;
     margin-bottom: 2.3em;     
@@ -1062,6 +1066,9 @@ margin-right: 10px;
     .footer_social_body {       
         top: -64%;
     }  
+    .recent_posts_button {
+        white-space: nowrap;
+    }
 }
 
 @media only screen and (max-width: 500px) {
